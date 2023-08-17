@@ -1,7 +1,7 @@
-import type { GatsbyConfig, PluginRef } from "gatsby"
-import "dotenv/config"
+import type { GatsbyConfig, PluginRef } from "gatsby";
+import "dotenv/config";
 
-const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
+const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 const config: GatsbyConfig = {
   siteMetadata: {
@@ -35,6 +35,7 @@ const config: GatsbyConfig = {
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#f6ad55`,
+
         display: `standalone`,
         icons: [
           {
@@ -60,6 +61,6 @@ const config: GatsbyConfig = {
       },
     },
   ].filter(Boolean) as Array<PluginRef>,
-}
+};
 
-export default config
+export default config;

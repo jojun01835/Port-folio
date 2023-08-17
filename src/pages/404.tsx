@@ -1,14 +1,14 @@
-import * as React from "react"
-import { HeadFC, Link, PageProps } from "gatsby"
-import { Parallax } from "@react-spring/parallax"
-import { Themed } from "@theme-ui/mdx"
-import Layout from "@lekoarts/gatsby-theme-cara/src/components/layout"
-import Divider from "@lekoarts/gatsby-theme-cara/src/elements/divider"
-import { UpDown, UpDownWide } from "@lekoarts/gatsby-theme-cara/src/styles/animations"
-import Svg from "@lekoarts/gatsby-theme-cara/src/components/svg"
-import Seo from "@lekoarts/gatsby-theme-cara/src/components/seo"
-import Content from "@lekoarts/gatsby-theme-cara/src/elements/content"
-import Inner from "@lekoarts/gatsby-theme-cara/src/elements/inner"
+import * as React from "react";
+import { HeadFC, Link, PageProps } from "gatsby";
+import { Parallax } from "@react-spring/parallax";
+import { Themed } from "@theme-ui/mdx";
+import Layout from "@lekoarts/gatsby-theme-cara/src/components/layout";
+import Divider from "@lekoarts/gatsby-theme-cara/src/elements/divider";
+import { UpDown, UpDownWide } from "@lekoarts/gatsby-theme-cara/src/styles/animations";
+import Svg from "@lekoarts/gatsby-theme-cara/src/components/svg";
+import Seo from "@lekoarts/gatsby-theme-cara/src/components/seo";
+import Content from "@lekoarts/gatsby-theme-cara/src/elements/content";
+import Inner from "@lekoarts/gatsby-theme-cara/src/elements/inner";
 
 const NotFound = (_props: PageProps) => (
   <Layout>
@@ -53,8 +53,8 @@ const NotFound = (_props: PageProps) => (
       </div>
     </Parallax>
   </Layout>
-)
+);
 
-export default NotFound
+export default NotFound;
 
-export const Head: HeadFC = () => <Seo title="404 - Not Found" />
+export const Head: HeadFC = () => <Seo title="404 - Not Found" />;
