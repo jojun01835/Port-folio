@@ -8,7 +8,7 @@
   "starter-name": "gatsby-starter-portfolio-cara",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "deploy": "gatsby build && gh-pages -d public -b deploy",
     "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
     "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
     "start": "gatsby develop",
@@ -20,6 +20,7 @@
     "gatsby": "^5.10.0",
     "gatsby-plugin-manifest": "^5.10.0",
     "gatsby-plugin-webpack-statoscope": "^1.0.3",
+    "gh-pages": "^6.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
